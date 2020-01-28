@@ -23,7 +23,7 @@ people_names = ['person Name']
 
 :weary: Você está <i>cansado de responder</i> todas aquelas mensagens chatas de aniversário via whatsapp? 
 
-Aqui vai a solução para estes dias chatos.
+Aqui vai a solução para estes dias cansativos.
 
 P.S:
 Você deve colocar aqui o nome dos contatos que você deve responder automaticamente caso o felicitem (linha 10):
