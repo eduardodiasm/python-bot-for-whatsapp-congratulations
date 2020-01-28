@@ -5,12 +5,12 @@ import time
 driver = webdriver.Firefox(executable_path=r'geckodriver.exe')
 driver.get('https://web.whatsapp.com/')
 
-time.sleep(4)
+input('Press something after the qr code page ')
 
-people_names = ['person Name']
+people_names = ['Person Name']
 
 for person_name in people_names:
-    person = driver.find_element_by_xpath('//span[@title = "{}"]'.format(person_name))
+    person = driver.find_element_by_xpath('//span[@title="{}"]'.format(person_name))
     person.click()
     for i in range(1, 3):
         driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')
