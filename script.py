@@ -7,7 +7,7 @@ driver.get('https://web.whatsapp.com/')
 
 input('Press something after the qr code page ')
 
-people_names = ['Person Name']
+people_names = ['Person Name', 'Person Name Two']
 
 for person_name in people_names:
     person = driver.find_element_by_xpath('//span[@title="{}"]'.format(person_name))
@@ -17,16 +17,16 @@ for person_name in people_names:
         messageContent = driver.find_elements_by_css_selector('span.selectable-text.invisible-space.copyable-text')
         message = [message.text for message in messageContent]
         # Replying in English
-        if message[-1] == 'Happy birthday':
+        if 'Happy birthday' in message[-1]:
             reply = driver.find_element_by_class_name('_3u328.copyable-text.selectable-text')
             reply.clear()
-            reply.send_keys('Thank you :)')
+            reply.send_keys('Thank you, ', person_name, ' :)')
             reply.send_keys(Keys.RETURN)
 
         # Replying in portuguese
-        elif message[-1] == 'Feliz aniversário' or message[-1] == 'Parabéns':
+        elif 'Feliz aniversário' in message[-1] or 'Parabéns' in message[-1]:
             reply = driver.find_element_by_class_name('_3u328.copyable-text.selectable-text')
             reply.clear()
-            reply.send_keys('Valeu, ', person_name, ' :)')
+            reply.send_keys('Obrigado, ', person_name, ' :)')
             reply.send_keys(Keys.RETURN)
             
