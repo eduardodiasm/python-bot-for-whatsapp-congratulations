@@ -7,7 +7,7 @@ driver.get('https://web.whatsapp.com/')
 
 time.sleep(4)
 
-people_names = ['Gabriel']
+people_names = ['person Name']
 
 for person_name in people_names:
     person = driver.find_element_by_xpath('//span[@title = "{}"]'.format(person_name))
@@ -27,6 +27,6 @@ for person_name in people_names:
         elif message[-1] == 'Feliz aniversário':
             reply = driver.find_element_by_class_name('_3u328.copyable-text.selectable-text')
             reply.clear()
-            reply.send_keys('Valeu,', person_name, ':)')
+            reply.send_keys('Valeu, ', person_name, ' :)')
             reply.send_keys(Keys.RETURN)
             
