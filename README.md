@@ -15,24 +15,3 @@ people_names = ['person Name']
 * Python3.x
 * Selenium3.x
 * Mozilla Firefox (geckodriver)   
-
-<br/>
-<br/>
-
-## Descrição em Português
-
-:weary: Você está <i>cansado de responder</i> todas aquelas mensagens chatas de aniversário via whatsapp? 
-
-Aqui vai a solução para estes dias cansativos.
-
-P.S:
-Você deve colocar aqui o nome dos contatos que você deve responder automaticamente caso o felicitem (linha 10):
-```
-people_names = ['person Name']
-```
-
-### :computer: Tecnologias usadas:
-* Python3.x
-* Selenium3.x
-* Mozilla Firefox (geckodriver)
-
