@@ -1,4 +1,4 @@
-# Python Bot For Whatsapp Congratulations Messages (autoreply)
+# Python Bot For Whatsapp Congratulations Messages
 ## English description
 
 :weary: Are you <i>tired of answering</i> all those birthday messages via whatsapp? 
