@@ -24,7 +24,7 @@ for person_name in people_names:
             reply.send_keys(Keys.RETURN)
 
         # Replying in portuguese
-        elif 'Feliz aniversário' in message[-1] or 'Parabéns' in message[-1]:
+        elif 'feliz aniversário' in message[-1].lower() or 'parabéns' in message[-1].lower():
             reply = driver.find_element_by_class_name('_3u328.copyable-text.selectable-text')
             reply.clear()
             reply.send_keys('Obrigado, ', person_name, ' :)')
