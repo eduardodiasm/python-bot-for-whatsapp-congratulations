@@ -4,9 +4,9 @@
 Here is the solution to help you in this boring situations.
 
 P.S:
-You just must put here the name of the contacts that you should thank if they send messages (line 10):
+You just must put here the name of the contacts that you should thank if they send messages (line 11):
 ```
-people_names = ['person Name']
+people_names = ['person one name example', 'person two name example']
 ```
 
 ### :computer: Techonologies used:
