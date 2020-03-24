@@ -18,9 +18,6 @@ Finally, you have to execute these codes below:
 ```sh
 $ pip install -r requirements.txt 
 $ python script.py
-=======
-P.S:
-You just must put here the name of the contacts that you should thank if they send messages (line 11):
 ```
 
 ### Techonologies used:
