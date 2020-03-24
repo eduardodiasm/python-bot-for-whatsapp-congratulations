@@ -7,12 +7,7 @@ driver.get('https://web.whatsapp.com/')
 
 input('Press something after the qr code page ')
 
-<<<<<<< HEAD
 people_names = ['person name']
-=======
-# Fill this list with the name of your contacts (string format).
-people_names = ['person one name example', 'person two name example']
->>>>>>> bc1d479fb63d882b87ac485881232596c508334d
 
 for person_name in people_names:
     person = driver.find_element_by_xpath('//span[@title="{}"]'.format(person_name))
