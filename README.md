@@ -1,17 +1,26 @@
 # Python Bot For Whatsapp Congratulations Messages (autoreply)
-## English description
 
-:weary: Are you <i>tired of answering</i> all those birthday messages via whatsapp? 
-
+> Are you _tired of answering_ all those birthday messages via whatsapp? 
 Here is the solution to help you in this boring situations.
 
-P.S:
-You just must put here the name of the contacts that you should thank if they send messages (line 10):
-```
-people_names = ['person Name']
+## Some little alterations for you
+You must put there, in that list, the name of the contacts that you should thank automatically if they send messages:
+```python
+10 | people_names = ['person name']
 ```
 
-### :computer: Techonologies used:
-* Python3.x
-* Selenium3.x
-* Mozilla Firefox (geckodriver)   
+## Run
+
+Before anything, you should have the [Mozilla Firefox](https://www.mozilla.org/pt-BR/firefox/new/), then you have to install the [geckodriver](https://github.com/mozilla/geckodriver/releases).
+
+Finally, you have to execute these codes below:
+
+```sh
+$ pip install -r requirements.txt 
+$ python script.py
+```
+
+### Techonologies used:
+* Python 3.x
+* Selenium 3.x
+* Mozilla Firefox (geckodriver)
