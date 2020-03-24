@@ -3,13 +3,13 @@
 > Are you _tired of answering_ all those birthday messages via whatsapp? 
 Here is the solution to help you in this boring situations.
 
-## Some little alterations for you
+### Some little alterations for you
 You must put there, in that list, the name of the contacts that you should thank automatically if they send messages:
 ```python
 10 | people_names = ['person name']
 ```
 
-## Run
+### Run
 
 First of all, you should have the [Mozilla Firefox](https://www.mozilla.org/pt-BR/firefox/new/), then you have to install the [geckodriver](https://github.com/mozilla/geckodriver/releases).
 
