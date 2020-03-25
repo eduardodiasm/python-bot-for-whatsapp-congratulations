@@ -1,5 +1,6 @@
 # Python bot for Whatsapp congratulations messages (autoreply)
 
+## What is it?
 > Are you _tired of answering_ all those birthday messages via whatsapp? 
 Here is the solution to help you in this boring situations.
 
