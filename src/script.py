@@ -30,3 +30,4 @@ for person_name in people_names:
             reply.send_keys('Obrigado, ', person_name, ' :)')
             reply.send_keys(Keys.RETURN)
             
+
