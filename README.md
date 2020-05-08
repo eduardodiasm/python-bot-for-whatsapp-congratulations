@@ -14,10 +14,11 @@ You must put there, in that list, the name of the contacts that you should thank
 
 First of all, you should have the [Mozilla Firefox](https://www.mozilla.org/pt-BR/firefox/new/), then you have to install the [geckodriver](https://github.com/mozilla/geckodriver/releases).
 
-Finally, you have to execute these codes below:
+Finally, you must execute the codes below:
 
 ```sh
 $ pip install -r requirements.txt 
+$ cd src
 $ python script.py
 ```
 
