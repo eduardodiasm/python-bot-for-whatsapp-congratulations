@@ -13,9 +13,11 @@ for person_name in people_names:
     person = driver.find_element_by_xpath('//span[@title="{}"]'.format(person_name))
     person.click()
     for i in range(1, 3):
+        
         driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')
         messageContent = driver.find_elements_by_css_selector('span.selectable-text.invisible-space.copyable-text')
         message = [message.text for message in messageContent]
+
         # Replying in English
         if 'Happy birthday' in message[-1]:
             reply = driver.find_element_by_class_name('_3u328.copyable-text.selectable-text')
@@ -23,11 +25,9 @@ for person_name in people_names:
             reply.send_keys('Thank you, ', person_name, ' :)')
             reply.send_keys(Keys.RETURN)
 
-        # Replying in portuguese
+        # Replying in Portuguese
         elif 'feliz aniversário' in message[-1].lower() or 'parabéns' in message[-1].lower():
             reply = driver.find_element_by_class_name('_3u328.copyable-text.selectable-text')
             reply.clear()
             reply.send_keys('Obrigado, ', person_name, ' :)')
             reply.send_keys(Keys.RETURN)
-            
-
