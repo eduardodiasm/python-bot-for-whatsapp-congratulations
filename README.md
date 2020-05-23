@@ -11,7 +11,7 @@ In this project, we are using:
 * [Gecko driver](https://github.com/mozilla/geckodriver)
 
 
-### Installation
+### Installing the dependecies
 
 The list of dependecies used here are able on [requirements.txt](https://github.com/eduardodiasm/python-bot-for-whatsapp-congratulations/blob/master/requirements.txt)
 
