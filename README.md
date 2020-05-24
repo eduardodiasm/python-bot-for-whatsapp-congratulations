@@ -23,7 +23,7 @@ $ pip install -r requirements.txt
 
 ### Installing the driver
 
-To manipulate the browser trough the script, you need a driver to do it. Here, we are using the Mozilla's Geckodriver. To install the geckodriver, you just have to install the binary file of it, named 'geckodriver.exe' and able in the repository root path.
+To manipulate the browser through the script, you need a driver to do it. Here, we are using the Mozilla's Geckodriver. To install the geckodriver, you just have to install the binary file of it, named 'geckodriver.exe' and able in the repository root path.
 
 ### Instruction
 To select the contacts that you want to reply automatically, you must put the contacts's names in the list people_names, on the line 10.
@@ -45,4 +45,4 @@ Remember that you should be inside the repository path.
 
   - Find out a way to get the class copyable-text.selectable-text
   - Get as environment variables the contacts that you want the script reply.
-  - Use the whatsapp api in the script.
+  - Use the Whatsapp API in the script.
