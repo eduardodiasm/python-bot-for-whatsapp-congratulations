@@ -23,7 +23,7 @@ $ pip install -r requirements.txt
 
 ### Installing the driver
 
-To manipulate the browser through the script, you need a driver to do it. Here, we are using the Mozilla's Geckodriver. To install the geckodriver, you just have to install the binary file of it, named 'geckodriver.exe' and able in the repository root path.
+To manipulate the browser through the script, you need a driver to do it. Here, we are using the Mozilla's Geckodriver. To install the geckodriver, you just have to install the binary file of it, named 'geckodriver.exe' and able in the root path of this repository.
 
 ### Instruction
 To select the contacts that you want to reply automatically, you must put the contacts's names in the list people_names, on the line 10.
