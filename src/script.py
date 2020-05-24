@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-driver = webdriver.Firefox(executable_path=r'geckodriver.exe')
+driver = webdriver.Firefox(executable_path=r'bin/geckodriver.exe')
 driver.get('https://web.whatsapp.com/')
 
 input('Press something after the qr code page ')
