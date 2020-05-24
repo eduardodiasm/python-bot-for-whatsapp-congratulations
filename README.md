@@ -38,7 +38,7 @@ $ cd src
 $ python script.py
 ```
 
-Remember that you should be inside the root of the repository path.
+Remember that you should be inside the root path of the repository.
 
 
 ### Todos!
